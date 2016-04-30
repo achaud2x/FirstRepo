@@ -1,7 +1,7 @@
 var express = require('express');
 
 var app = express();
-var port = process.env.npm_package_config_port || 3000;
+var port = process.env.PORT || 3000;
 
 app.get('/',function(req,res){
   res.end('Hello World in node\n');
