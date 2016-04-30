@@ -1,0 +1,19 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "This is the demo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "features"
+  ],
+  "config" : {"port": "5000"},
+  "author": "Abhishek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
